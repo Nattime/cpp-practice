@@ -3,7 +3,7 @@
 # 1/10/2024
 # create c++/java file
 
-FILE="FindTheTownJudge"
+FILE="RemoveNthNodeFromEndOfList"
 # FILE=`date +%b%d`
 # NUM=0
 
@@ -14,6 +14,7 @@ clear
 # code run.sh $FILE.cpp $FILE.h
 code run.sh $FILE.cpp
 # code $FILE.cpp
+code ../README.md
 
 # JAVA
 # code run.sh $FILE.java

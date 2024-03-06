@@ -42,3 +42,5 @@ Merge K Sorted Lists
 Power Of Two
 
 Find The Town Judge
+
+19 RemoveNthNodeFromEndOfList
