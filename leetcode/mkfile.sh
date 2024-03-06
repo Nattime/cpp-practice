@@ -3,7 +3,7 @@
 # 1/10/2024
 # create c++/java file
 
-FILE="RemoveNthNodeFromEndOfList"
+FILE="MinimumLengthOfStringAfterDeletingSimilarEnds"
 # FILE=`date +%b%d`
 # NUM=0
 

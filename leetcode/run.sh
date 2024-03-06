@@ -3,7 +3,7 @@
 # 1/10/24
 # compile and run c++ and java files
 
-FILE="RemoveNthNodeFromEndOfList"
+FILE="MinimumLengthOfStringAfterDeletingSimilarEnds"
 # FILE=`date +%b%d`
 # COUNT=10
 # NUM=0
