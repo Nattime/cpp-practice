@@ -48,3 +48,5 @@ Find The Town Judge
 1750 MinimumLengthOfStringAfterDeletingSimilarEnds
 
 3005 CountElementsWithMaximumFrequency
+
+791 CustomSortString
