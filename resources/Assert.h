@@ -64,6 +64,17 @@ class Assert {
     bool assertEqualsHelper(int num1, int num2) {
         return num1 == num2;
     }
+    bool assertEqualsHelper(std::string str1, std::string str2) {
+        if(str1.length() != str2.length()){
+            return false;
+        }
+        for(int i = 0; i < str1.length(); i++){
+            if(str1[i] != str2[i]){
+                return false;
+            }
+        }
+        return true;
+    }
     bool assertEqualsHelper(ListNode *l1, ListNode *l2) {
         while (l1 != NULL || l2 != NULL) {
             if (l1 == NULL && l2 != NULL) {
@@ -94,6 +105,9 @@ class Assert {
     }
     void assertEquals(ListNode *l1, ListNode *l2) {
         cout << assertEqualsHelper(l1, l2) << endl;
+    }
+    void assertEquals(std::string str1, std::string str2){
+        cout << assertEqualsHelper(str1, str2) << endl;
     }
     void assertTrue(bool b1) {
         cout << (b1 == true) << endl;
