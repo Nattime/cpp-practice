@@ -52,3 +52,5 @@ Find The Town Judge
 791 CustomSortString
 
 2485 FindThePivotInteger
+
+525 ContiguousArray
