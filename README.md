@@ -56,3 +56,5 @@ Find The Town Judge
 525 ContiguousArray
 
 452 MinimumNumberOfArrowsToBurstBalloons
+
+206 ReverseLinkedList
