@@ -58,3 +58,5 @@ Find The Town Judge
 452 MinimumNumberOfArrowsToBurstBalloons
 
 206 ReverseLinkedList
+
+442 FindAllDuplicatesInAnArray
