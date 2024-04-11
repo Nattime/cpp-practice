@@ -70,3 +70,5 @@ Find The Town Judge
 1249 MinimumRemoveToMakeValidParentheses
 
 2073 TimeNeededToBuyTickets
+
+402 RemoveKDigits
