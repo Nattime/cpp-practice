@@ -65,11 +65,11 @@ class Assert {
         return num1 == num2;
     }
     bool assertEqualsHelper(std::string str1, std::string str2) {
-        if(str1.length() != str2.length()){
+        if (str1.length() != str2.length()) {
             return false;
         }
-        for(int i = 0; i < str1.length(); i++){
-            if(str1[i] != str2[i]){
+        for (int i = 0; i < str1.length(); i++) {
+            if (str1[i] != str2[i]) {
                 return false;
             }
         }
@@ -89,6 +89,15 @@ class Assert {
         }
         return true;
     }
+    void assertPrint(int output, int expected) {
+        if (assertEqualsHelper(output, expected)) {
+            cout << 1 << endl;
+        } else {
+            cout << 0 << endl;
+            cout << "\toutput: " << output << endl;
+            cout << "\texpected: " << expected << endl;
+        }
+    }
 
   public:
     void assertEquals(TreeNode *node1, TreeNode *node2) {
@@ -101,12 +110,13 @@ class Assert {
         cout << assertEqualsHelper(v1, v2) << endl;
     }
     void assertEquals(int num1, int num2) {
-        cout << assertEqualsHelper(num1, num2) << endl;
+        int result = assertEqualsHelper(num1, num2);
+        assertPrint(num1, num2);
     }
     void assertEquals(ListNode *l1, ListNode *l2) {
         cout << assertEqualsHelper(l1, l2) << endl;
     }
-    void assertEquals(std::string str1, std::string str2){
+    void assertEquals(std::string str1, std::string str2) {
         cout << assertEqualsHelper(str1, str2) << endl;
     }
     void assertTrue(bool b1) {
