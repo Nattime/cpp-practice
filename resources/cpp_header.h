@@ -13,6 +13,7 @@
 #include <vector>
 #include <stack>
 #include <algorithm>
+#include <unordered_set>
 #include "../resources/Print.h"
 #include "../resources/Create.h"
 #include "../resources/TreeNode.h"
