@@ -76,3 +76,5 @@ Find The Town Judge
 129 SumRootToLeafNumbers
 
 463 IslandPerimeter
+
+752 OpenTheLock
