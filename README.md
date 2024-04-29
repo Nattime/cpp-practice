@@ -82,3 +82,5 @@ Find The Town Judge
 1137 NthTribonacciNumber
 
 1289 MinimumFallingPathSumII
+
+2997 MinimumNumberOfOperationsToMakeArrayXOREqualToK
