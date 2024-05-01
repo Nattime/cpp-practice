@@ -123,9 +123,6 @@ class Assert {
     void assertTrue(bool b1) {
         cout << (b1 == true) << endl;
     }
-    void assertFalse(bool b1) {
-        cout << (b1 == false) << endl;
-    }
 };
 
 #endif

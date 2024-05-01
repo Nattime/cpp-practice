@@ -40,5 +40,5 @@ void testcase2() {
 }
 
 void testcase3() {
-    a.assertFalse(test.isPowerOfTwo(3));
+    a.assertEquals(test.isPowerOfTwo(3), false);
 }

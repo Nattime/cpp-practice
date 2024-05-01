@@ -2,7 +2,7 @@
 // 1/29/24
 // 98. Validate Binary Search Tree
 
-#include "cpp_header.h"
+#include "../resources/cpp_header.h"
 
 void testcase1();
 void testcase2();
@@ -45,5 +45,5 @@ void testcase1() {
 void testcase2() {
     int arr[]{5, 1, 4, NULL, NULL, 3, 6};
     TreeNode *root = c.createTreeNodeTree(arr, 7);
-    a.assertFalse(test.isValidBST(root));
+    a.assertEquals(test.isValidBST(root), false);
 }
