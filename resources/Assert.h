@@ -89,7 +89,8 @@ class Assert {
         }
         return true;
     }
-    void assertPrint(int output, int expected) {
+    template <class T>
+    void assertPrint(T output, T expected) {
         if (assertEqualsHelper(output, expected)) {
             cout << 1 << endl;
         } else {
@@ -117,7 +118,7 @@ class Assert {
         cout << assertEqualsHelper(l1, l2) << endl;
     }
     void assertEquals(std::string str1, std::string str2) {
-        cout << assertEqualsHelper(str1, str2) << endl;
+        assertPrint(str1, str2);
     }
     void assertTrue(bool b1) {
         cout << (b1 == true) << endl;
