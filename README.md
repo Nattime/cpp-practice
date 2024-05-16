@@ -96,3 +96,5 @@ Find The Town Judge
 786 KthSmallestPrimeFraction
 
 861 ScoreAfterFlippingMatrix
+
+2331 EvaluateBooleanBinaryTree
