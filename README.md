@@ -98,3 +98,5 @@ Find The Town Judge
 861 ScoreAfterFlippingMatrix
 
 2331 EvaluateBooleanBinaryTree
+
+1863 SumOfAllSubsetXORTotals
