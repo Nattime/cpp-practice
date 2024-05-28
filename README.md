@@ -100,3 +100,5 @@ Find The Town Judge
 2331 EvaluateBooleanBinaryTree
 
 1863 SumOfAllSubsetXORTotals
+
+1208 GetEqualSubstringsWithinBudget
