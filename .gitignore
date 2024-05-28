@@ -1,3 +1,4 @@
 # Make and Run file
 /leetcode/run.sh
 /leetcode/mkfile.sh
+.DS_Store
