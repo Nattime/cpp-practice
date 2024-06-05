@@ -50,7 +50,8 @@ class Assert {
         }
         return true;
     }
-    bool assertEqualsHelper(vector<int> v1, vector<int> v2) {
+    template <typename T>
+    bool assertEqualsHelper(vector<T> v1, vector<T> v2) {
         if (v1.size() != v2.size()) {
             return false;
         }
@@ -107,7 +108,8 @@ class Assert {
     void assertEquals(vector<vector<int>> v1, vector<vector<int>> v2) {
         cout << assertEqualsHelper(v1, v2) << endl;
     }
-    void assertEquals(vector<int> v1, vector<int> v2) {
+    template <typename T>
+    void assertEquals(vector<T> v1, vector<T> v2) {
         cout << assertEqualsHelper(v1, v2) << endl;
     }
     void assertEquals(int num1, int num2) {
