@@ -110,3 +110,5 @@ Find The Town Judge
 2486 AppendCharactersToStringToMakeSubsequence
 
 1002 FindCommonCharacters
+
+648 ReplaceWords
