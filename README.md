@@ -112,3 +112,5 @@ Find The Town Judge
 1002 FindCommonCharacters
 
 648 ReplaceWords
+
+1051 HeightChecker
