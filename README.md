@@ -116,3 +116,5 @@ Find The Town Judge
 1051 HeightChecker
 
 75 SortColors
+
+945 MinimumIncrementToMakeArrayUnique
