@@ -118,3 +118,5 @@ Find The Town Judge
 75 SortColors
 
 945 MinimumIncrementToMakeArrayUnique
+
+330 PatchingArray
