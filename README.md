@@ -122,3 +122,5 @@ Find The Town Judge
 330 PatchingArray
 
 114 FlattenBinaryTreeToLinkedList
+
+2192 AllAncestorsOfANodeInADirectedAcyclicGraph
