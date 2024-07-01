@@ -124,3 +124,5 @@ Find The Town Judge
 114 FlattenBinaryTreeToLinkedList
 
 2192 AllAncestorsOfANodeInADirectedAcyclicGraph
+
+1550 ThreeConsecutiveOdds
