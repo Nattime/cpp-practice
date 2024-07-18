@@ -126,3 +126,5 @@ Find The Town Judge
 2192 AllAncestorsOfANodeInADirectedAcyclicGraph
 
 1550 ThreeConsecutiveOdds
+
+2058 FindTheMinimumAndMaximumNumberOfNodesBetweenCriticalPoints
