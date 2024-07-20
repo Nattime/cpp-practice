@@ -130,3 +130,5 @@ Find The Town Judge
 2058 FindTheMinimumAndMaximumNumberOfNodesBetweenCriticalPoints
 
 2196 CreateBinaryTreeFromDescriptions
+
+1190 ReverseSubstringsBetweenEachPairOfParentheses
