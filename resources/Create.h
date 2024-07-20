@@ -50,9 +50,11 @@ class Create {
                 q.push(node);
                 i++;
                 if (i < size) {
-                    TreeNode *n = new TreeNode(arr[i]);
-                    curr->right = n;
-                    q.push(n);
+                    if (arr[i] != NULL) {
+                        TreeNode *n = new TreeNode(arr[i]);
+                        curr->right = n;
+                        q.push(n);
+                    }
                 }
             } else {
                 i++;
