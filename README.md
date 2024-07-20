@@ -132,3 +132,5 @@ Find The Town Judge
 2196 CreateBinaryTreeFromDescriptions
 
 1190 ReverseSubstringsBetweenEachPairOfParentheses
+
+1530 NumberOfGoodLeafNodesPairs
