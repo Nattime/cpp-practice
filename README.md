@@ -144,3 +144,5 @@ Find The Town Judge
 1334 FindTheCityWithTheSmallestNumberOfNeighborsAtAThresholdDistance
 
 1395 CountNumberOfTeams
+
+2678 NumberOfSeniorCitizens
