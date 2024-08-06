@@ -148,3 +148,5 @@ Find The Town Judge
 2678 NumberOfSeniorCitizens
 
 1460 MakeTwoArraysEqualByReversingSubarrays
+
+3016 MinimumNumberOfPushesToTypeWordII
