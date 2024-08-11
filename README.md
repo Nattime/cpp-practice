@@ -152,3 +152,5 @@ Find The Town Judge
 3016 MinimumNumberOfPushesToTypeWordII
 
 885 SpiralMatrixIII
+
+1636 SortArrayByIncreasingFrequency
