@@ -158,3 +158,5 @@ Find The Town Judge
 703 KthLargestElementInAStream
 
 624 MaximumDistanceInArrays
+
+650 TwoKeysKeyboard
