@@ -162,3 +162,5 @@ Find The Town Judge
 650 TwoKeysKeyboard
 
 476 NumberComplement
+
+590 NaryTreePostorderTraversal
