@@ -12,6 +12,7 @@
 #define CREATE_H
 
 #include "../resources/ListNode.h"
+#include "../resources/NaryNode.h"
 #include "../resources/Print.h"
 #include "../resources/TreeNode.h"
 #include <iostream>
@@ -79,6 +80,28 @@ class Create {
         // Print p{};
         // p.printListNode(root);
         return root->next;
+    }
+    NaryNode *naryNodeTreeHelper(vector<int> &v) {
+        int len = v.size();
+        NaryNode *root = new NaryNode(v[0]);
+        queue<NaryNode *> q{};
+        q.push(root);
+        for (int i = 2; i < len; i++) {
+            NaryNode *curr = q.front();
+            q.pop();
+            vector<NaryNode *> list{};
+            while (v[i] != NULL) {
+                NaryNode *node = new NaryNode(v[i]);
+                list.push_back(node);
+                q.push(node);
+                i++;
+                if (i >= len) {
+                    break;
+                }
+            }
+            curr->children = list;
+        }
+        return root;
     }
 
     // TreeNode* createTreeNodeTreeHelper(int arr[], int size) {
@@ -157,6 +180,24 @@ class Create {
             ret.push_back(root);
         }
         return ret;
+    }
+
+    NaryNode *createNaryTree(int arr[], int size) {
+        if (arr == NULL || size < 1) {
+            return NULL;
+        }
+        vector<int> v{};
+        for (int i = 0; i < size; i++) {
+            v.push_back(arr[i]);
+        }
+        return createNaryTree(v);
+    }
+
+    NaryNode *createNaryTree(vector<int> &v) {
+        if (v.size() < 1) {
+            return NULL;
+        }
+        return naryNodeTreeHelper(v);
     }
 };
 

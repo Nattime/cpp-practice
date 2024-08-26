@@ -13,6 +13,7 @@
 
 #include "../resources/ListNode.h"
 #include "../resources/TreeNode.h"
+#include "../resources/NaryNode.h"
 #include <iostream>
 #include <queue>
 #include <vector>
@@ -62,6 +63,26 @@ class Print {
         }
         cout << endl;
     }
+    void printNaryNodeHelper(NaryNode *root) {
+        if (root != NULL) {
+            queue<NaryNode *> q{};
+            q.push(root);
+            while (!q.empty()) {
+                int size = q.size();
+                for (int i = 0; i < size; ++i) {
+                    NaryNode *curr = q.front();
+                    q.pop();
+                    cout << curr->val << " ";
+                    vector<NaryNode *> v = curr->children;
+                    for (auto iter : v) {
+                        q.push(iter);
+                    }
+                }
+                cout << "NULL ";
+            }
+        }
+        cout << endl;
+    }
 
   public:
     void print(vector<vector<int>> v) {
@@ -107,6 +128,10 @@ class Print {
     //     }
     //     cout << endl;
     // }
+
+    void print(NaryNode *root) {
+        printNaryNodeHelper(root);
+    }
 
     void printBinaryTree(TreeNode *root) {
         printBinaryTree(root, true);

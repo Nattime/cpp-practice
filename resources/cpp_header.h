@@ -20,6 +20,7 @@
 #include "../resources/TreeNode.h"
 #include "../resources/Assert.h"
 #include "../resources/ListNode.h"
+#include "../resources/NaryNode.h"
 
 using namespace std;
 
