@@ -166,3 +166,5 @@ Find The Town Judge
 590 NaryTreePostorderTraversal
 
 1544 MakeTheStringGreat
+
+860 LemonadeChange
