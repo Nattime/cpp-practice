@@ -172,3 +172,5 @@ Find The Town Judge
 1945 SumOfDigitsOfStringAfterConvert
 
 3217 DeleteNodesFromLinkedListPresentInArray
+
+725 SplitLinkedListInParts
